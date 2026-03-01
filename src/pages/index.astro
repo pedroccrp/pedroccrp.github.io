@@ -3,4 +3,32 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
+  <section>
+    <strong>Hi, I'm Pedro!</strong>
+    <p>
+      This is my personal website where I share my projects, thoughts, and experiences. Click on the links above to explore more about me and my work. Feel free to reach out if you want to connect or have any projects you'd like to collaborate on!
+    </p>
+  </section>
 </Layout>
+
+<style>
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  p {
+    font-size: var(--h3);
+    color: var(--text-secondary);
+    text-align: left;
+  }
+
+  strong {
+    font-size: var(--h2);
+    line-height: 2.0;
+    color: var(--text-primary);
+  }
+
+</style>
