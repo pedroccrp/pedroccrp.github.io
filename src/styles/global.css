@@ -1,10 +1,11 @@
 :root {
   --primary: #FEFEFE;
+  --secondary: #010101;
 
   --text-primary: #010101;
   --text-secondary: #333333;
   --text-muted: #666666;
-  --text-hover: #202020;
+  --text-hover: #DDDDFF;
   --text-placeholder: #999999;
 
 
